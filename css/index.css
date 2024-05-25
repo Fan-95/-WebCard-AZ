@@ -117,13 +117,6 @@ button {
   transition: background-color 0.5s linear;
 }
 
-.footer {
-  position: absolute;
-  margin-top: 30px;
-  margin-left: -70px;
-  display: inline-block;
-}
-
 .foto {
   display: inline-block;
   width: 420px;
@@ -205,3 +198,6 @@ button:hover {
   font-size: 35px;
   margin-right: 20px;
 }
+
+
+/* footer */
