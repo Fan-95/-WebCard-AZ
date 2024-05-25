@@ -1,0 +1,123 @@
+@media (max-width: 1160px) {
+  .soc img {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 40px;
+  }
+
+  .soc{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+
+@media (min-width: 761px) and (max-width: 974px) {
+  .soc img {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 35px;
+  }
+
+  .boxNav {
+    margin: 0px;
+  }
+
+  .boxNav p {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .logo img{
+    margin-left: 10px;
+  }
+
+  .menu h1 {
+    font-size: 20px;
+  }
+
+  .menu p {
+    color: #ffffffdc;
+    font-size: 15px;
+  }
+
+  .logobanner {
+    width: 200px;
+  }
+
+  button {
+    
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 760px) {
+
+  .boxNav {
+    display: none;
+  }
+
+  .soc {
+    display: none;
+  }
+
+  .butter,.soc2 {
+    display: block;
+  }
+
+
+  .menu h1 {
+    font-size: 18px;
+  }
+
+  .menu p {
+    color: #ffffffdc;
+    font-size: 10px;
+  }
+
+  .card {
+    margin-top: 0px;
+  }
+
+  .logobanner {
+    width: 150px;
+  }
+
+  .back {
+    background-size: auto;
+  }
+
+  .menu {
+    flex-direction: column
+  }
+
+  button {
+    background: #e664647d;
+    padding: 6px;
+    width: 140px;
+    color: #ffffffdc;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    transition: background-color 0.5s linear;
+  }
+
+  .soc2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(33, 8, 78, 0.54);
+    width: 100%;
+    height: 10vh;
+  }
+
+  .soc2 img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.soc,.menu,.soc2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.back {
+  background-image: url("/img/fon1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80vw;
+  min-height: 75vh;
+  background: linear-gradient(30deg, #512860, #126b68);
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(33, 8, 78, 0.54);
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 100%;
+  height: 65vh;
+}
+
+.boxNav {
+  margin-left: 50px;
+}
+
+.boxNav p {
+  margin-right: 30px;
+  color: #ffffffdc;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.5s linear;
+}
+
+.boxNav p:hover {
+  color: #e66465;
+}
+
+.soc {
+  /* display: inline-block; */
+  width: 28%;
+  /* height: 10vh; */
+}
+
+.soc img,.soc2 img {
+  margin-left: 15px;
+  width: 40px;
+  opacity: 0.5;
+  transition: opacity 0.3s linear;
+}
+
+.logo img {
+  margin-left: 30px;
+  width: 60px;
+}
+
+.menu h1 {
+  color: #e66465;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu p {
+  color: #ffffffdc;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+button {
+  background: #e664647d;
+  padding: 10px;
+  width: 180px;
+  color: #ffffffdc;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-right: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+  transition: background-color 0.5s linear;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -70px;
+  display: inline-block;
+}
+
+.foto {
+  display: inline-block;
+  width: 420px;
+}
+
+.work {
+  display: inline-block;
+  width: 320px;
+}
+
+button:hover {
+  background: #e66465;
+}
+
+.soc img:hover,.soc2 img:hover {
+  opacity: 1;
+}
+
+.work_scrin {
+  width: 300px;
+  height: 180px;
+  filter: grayscale(1);
+  transition: all 0.8s ease 0s;
+}
+
+.work_scrin:hover {
+  filter: grayscale(0);
+}
+
+.menu2 h1 {
+  color: #e66465;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.menu2 p {
+  color: #ffffffdc;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.menu2 {
+  margin-top: -75px;
+  margin-left: 80px;
+}
+
+.logobanner {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.hover-image-scale {
+  display: inline-block;
+  overflow: hidden;
+}
+.hover-image-scale img {
+  transition: 1s;
+  display: block;
+}
+.hover-image-scale img:hover {
+  transform: scale(1.1);
+  justify-content: space-evenly;
+}
+
+
+/* TODO ADAPTIV */
+
+.soc2,.butter {
+  display: none;
+}
+
+.butter {
+  color: #e66465;
+  font-size: 35px;
+  margin-right: 20px;
+}
